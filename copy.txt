@@ -1,0 +1,50 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="utf-8">
+     <title>Foreign Applicants Login</title>
+     <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+     <link rel="stylesheet" href="css/style.css" media="screen" >
+
+     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+<link rel="manifest" href="images/site.webmanifest">
+   </head>
+   <body class="body2">
+     <div class="container-fluid">
+       <div class="row">
+
+  <div class="col-lg-4"></div>
+
+         <div class="col-lg-4">
+
+
+           <div class="login-div text-center">
+             <form id="form1" action="post" >
+                    <img class="logo" src="images/logos.jpg" />
+                      <h4 class="text-light">Undergraduate <br /> Online  Application</h4>
+                        <h5 class="text-warning"> (Foreign Applicants) </h5>
+                            <h6  class="text-light"> Login with the information provided within your e-Voucher. </h6>
+             <input type="email" id="email_id" class="form-control" placeholder="Serial Number" required="required"></p>
+              <input type="password" id="pass_id" class="form-control" placeholder="Pin" required="required"><img src="" alt=""></p>
+
+
+           <button  onclick="myLog( )" class="btn btn-success btn-lg btn-block rounded-pill shadow-lg" >Login </button>  
+             </form>
+
+          </div>
+
+         </div>
+         <div class="col-lg-4"></div>
+
+         </div>
+      </div>
+
+      <div class="footer">
+        Copyright © 2020 Duo-Grammers, All rights reserved.
+      </div>
+
+<script src="home.js"></script>
+
+   </body>
+</html>
